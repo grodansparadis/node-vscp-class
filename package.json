@@ -1,0 +1,24 @@
+{
+  "name": "node-vscp-class",
+  "version": "1.0.0",
+  "description": "VSCP class constants for node.js",
+  "main": "vscp_class.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grodansparadis/node-vscp-class.git"
+  },
+  "keywords": [
+    "vscp",
+    "iot",
+    "automation"
+  ],
+  "author": "akhe@grodansparadis.com, Grodans Paradis AB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grodansparadis/node-vscp-class/issues"
+  },
+  "homepage": "https://github.com/grodansparadis/node-vscp-class#readme"
+}
