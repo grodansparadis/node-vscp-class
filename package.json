@@ -15,7 +15,10 @@
     "iot",
     "automation"
   ],
-  "author": "akhe@grodansparadis.com, Grodans Paradis AB",
+  "author": "Ake Hedman, <akhe@grodansparadis.com> (https://www.vscp.org)",
+  "contributors":[
+    "Andreas Merkle <vscp@blue-andi.de>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/grodansparadis/node-vscp-class/issues"
