@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-10-15 11:26:26.237150
+                        Generated: 2019-10-18 09:09:28.120808
 */
 
 var exports = module.exports = {};
