@@ -43,7 +43,7 @@
 */
 
 var exports = module.exports = {};
-
+.....
 module.exports.VSCP_CLASS1_PROTOCOL = 0;
 module.exports.VSCP_CLASS1_ALARM = 1;
 module.exports.VSCP_CLASS1_SECURITY = 2;
@@ -123,5 +123,3 @@ module.exports.VSCP_CLASS2_DISPLAY = 1030;
 module.exports.VSCP_CLASS2_MEASUREMENT_STR = 1040;
 module.exports.VSCP_CLASS2_MEASUREMENT_FLOAT = 1060;
 module.exports.VSCP_CLASS2_VSCPD = 65535;
-
-
