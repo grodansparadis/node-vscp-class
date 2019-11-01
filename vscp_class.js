@@ -43,7 +43,7 @@
 */
 
 var exports = module.exports = {};
-.....
+
 module.exports.VSCP_CLASS1_PROTOCOL = 0;
 module.exports.VSCP_CLASS1_ALARM = 1;
 module.exports.VSCP_CLASS1_SECURITY = 2;
