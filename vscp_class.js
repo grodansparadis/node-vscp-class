@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-01-02 17:51:05.633309
+                        Generated: 2020-01-02 18:31:11.512028
 */
 
 var exports = module.exports = {};
@@ -118,6 +118,7 @@ module.exports.VSCP_CLASS2_PROTOCOL = 1024;
 module.exports.VSCP_CLASS2_CONTROL = 1025;
 module.exports.VSCP_CLASS2_INFORMATION = 1026;
 module.exports.VSCP_CLASS2_TEXT2SPEECH = 1027;
+module.exports.VSCP_CLASS2_HLO = 1028;
 module.exports.VSCP_CLASS2_CUSTOM = 1029;
 module.exports.VSCP_CLASS2_DISPLAY = 1030;
 module.exports.VSCP_CLASS2_MEASUREMENT_STR = 1040;
