@@ -19,7 +19,12 @@ optionally with '--save' to save dependency in the package.json file.
 ```javascript
 const vscp_type = require('node-vscp-class');
 ...
+// Get numeric id for class
 console.log(vscp_type.VSCP_CLASS2_MEASUREMENT_STR);
+
+// Get symbolic value for class
+// vscp_class(vscpClass);
+console.log(vscp_class(88));
 ```
 
 ## Events
