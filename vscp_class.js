@@ -39,10 +39,18 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-01-23 10:19:55.834991
+                        Generated: 2020-02-19 17:56:29.709555
 */
 
-var exports = module.exports = {};
+
+/** 
+ * VSCP class map
+ */
+var vscp_class_map = new Map();
+
+module.exports = function (vscpclass) {
+    return vscp_class_map.get(vscpclass);
+};
 
 module.exports.VSCP_CLASS1_PROTOCOL = 0;
 module.exports.VSCP_CLASS1_ALARM = 1;
@@ -125,4 +133,84 @@ module.exports.VSCP_CLASS2_MEASUREMENT_STR = 1040;
 module.exports.VSCP_CLASS2_MEASUREMENT_FLOAT = 1060;
 module.exports.VSCP_CLASS2_VSCPD = 65535;
 
-
+// Assign elements to class map
+vscp_class_map.set(0,'CLASS1.PROTOCOL');
+vscp_class_map.set(1,'CLASS1.ALARM');
+vscp_class_map.set(2,'CLASS1.SECURITY');
+vscp_class_map.set(10,'CLASS1.MEASUREMENT');
+vscp_class_map.set(11,'CLASS1.MEASUREMENTX1');
+vscp_class_map.set(12,'CLASS1.MEASUREMENTX2');
+vscp_class_map.set(13,'CLASS1.MEASUREMENTX3');
+vscp_class_map.set(14,'CLASS1.MEASUREMENTX4');
+vscp_class_map.set(15,'CLASS1.DATA');
+vscp_class_map.set(20,'CLASS1.INFORMATION');
+vscp_class_map.set(30,'CLASS1.CONTROL');
+vscp_class_map.set(40,'CLASS1.MULTIMEDIA');
+vscp_class_map.set(50,'CLASS1.AOL');
+vscp_class_map.set(60,'CLASS1.MEASUREMENT64');
+vscp_class_map.set(61,'CLASS1.MEASUREMENT64X1');
+vscp_class_map.set(62,'CLASS1.MEASUREMENT64X2');
+vscp_class_map.set(63,'CLASS1.MEASUREMENT64X3');
+vscp_class_map.set(64,'CLASS1.MEASUREMENT64X4');
+vscp_class_map.set(65,'CLASS1.MEASUREZONE');
+vscp_class_map.set(66,'CLASS1.MEASUREZONEX1');
+vscp_class_map.set(67,'CLASS1.MEASUREZONEX2');
+vscp_class_map.set(68,'CLASS1.MEASUREZONEX3');
+vscp_class_map.set(69,'CLASS1.MEASUREZONEX4');
+vscp_class_map.set(70,'CLASS1.MEASUREMENT32');
+vscp_class_map.set(71,'CLASS1.MEASUREMENT32X1');
+vscp_class_map.set(72,'CLASS1.MEASUREMENT32X2');
+vscp_class_map.set(73,'CLASS1.MEASUREMENT32X3');
+vscp_class_map.set(74,'CLASS1.MEASUREMENT32X4');
+vscp_class_map.set(85,'CLASS1.SETVALUEZONE');
+vscp_class_map.set(86,'CLASS1.SETVALUEZONEX1');
+vscp_class_map.set(87,'CLASS1.SETVALUEZONEX2');
+vscp_class_map.set(88,'CLASS1.SETVALUEZONEX3');
+vscp_class_map.set(89,'CLASS1.SETVALUEZONEX4');
+vscp_class_map.set(90,'CLASS1.WEATHER');
+vscp_class_map.set(95,'CLASS1.WEATHER_FORECAST');
+vscp_class_map.set(100,'CLASS1.PHONE');
+vscp_class_map.set(102,'CLASS1.DISPLAY');
+vscp_class_map.set(110,'CLASS1.IR');
+vscp_class_map.set(206,'CLASS1.GNSS');
+vscp_class_map.set(212,'CLASS1.WIRELESS');
+vscp_class_map.set(506,'CLASS1.DIAGNOSTIC');
+vscp_class_map.set(508,'CLASS1.ERROR');
+vscp_class_map.set(509,'CLASS1.LOG');
+vscp_class_map.set(510,'CLASS1.LABORATORY');
+vscp_class_map.set(511,'CLASS1.LOCAL');
+vscp_class_map.set(512,'CLASS2.LEVEL1.PROTOCOL');
+vscp_class_map.set(513,'CLASS2.LEVEL1.ALARM');
+vscp_class_map.set(514,'CLASS2.LEVEL1.SECURITY');
+vscp_class_map.set(522,'CLASS2.LEVEL1.MEASUREMENT');
+vscp_class_map.set(527,'CLASS2.LEVEL1.DATA');
+vscp_class_map.set(532,'CLASS2.LEVEL1.INFORMATION1');
+vscp_class_map.set(542,'CLASS2.LEVEL1.CONTROL');
+vscp_class_map.set(552,'CLASS2.LEVEL1.MULTIMEDIA');
+vscp_class_map.set(562,'CLASS2.LEVEL1.AOL');
+vscp_class_map.set(572,'CLASS2.LEVEL1.MEASUREMENT64');
+vscp_class_map.set(577,'CLASS2.LEVEL1.MEASUREZONE');
+vscp_class_map.set(582,'CLASS2.LEVEL1.MEASUREMENT32');
+vscp_class_map.set(597,'CLASS2.LEVEL1.SETVALUEZONE');
+vscp_class_map.set(602,'CLASS2.LEVEL1.WEATHER');
+vscp_class_map.set(607,'CLASS2.LEVEL1.WEATHERFORECAST');
+vscp_class_map.set(612,'CLASS2.LEVEL1.PHONE');
+vscp_class_map.set(614,'CLASS2.LEVEL1.DISPLAY');
+vscp_class_map.set(622,'CLASS2.LEVEL1.IR');
+vscp_class_map.set(718,'CLASS2.LEVEL1.GNSS');
+vscp_class_map.set(724,'CLASS2.LEVEL1.WIRELESS');
+vscp_class_map.set(1018,'CLASS2.LEVEL1.DIAGNOSTIC');
+vscp_class_map.set(1020,'CLASS2.LEVEL1.ERROR');
+vscp_class_map.set(1021,'CLASS2.LEVEL1.LOG');
+vscp_class_map.set(1022,'CLASS2.LEVEL1.LABORATORY');
+vscp_class_map.set(1023,'CLASS2.LEVEL1.LOCAL');
+vscp_class_map.set(1024,'CLASS2.PROTOCOL');
+vscp_class_map.set(1025,'CLASS2.CONTROL');
+vscp_class_map.set(1026,'CLASS2.INFORMATION');
+vscp_class_map.set(1027,'CLASS2.TEXT2SPEECH');
+vscp_class_map.set(1028,'CLASS2.HLO');
+vscp_class_map.set(1029,'CLASS2.CUSTOM');
+vscp_class_map.set(1030,'CLASS2.DISPLAY');
+vscp_class_map.set(1040,'CLASS2.MEASUREMENT_STR');
+vscp_class_map.set(1060,'CLASS2.MEASUREMENT_FLOAT');
+vscp_class_map.set(65535,'CLASS2.VSCPD');
