@@ -1,7 +1,7 @@
 # node-vscp-class
 
 
-<img src="https://vscp.org/images/logo.png" width="100">
+![](https://vscp.org/images/logo_100.png)
 
 VSCP class constants for the node.js package **node-vscp-class**
 
@@ -24,11 +24,16 @@ console.log(vscp_type.VSCP_CLASS2_MEASUREMENT_STR);
 
 // Get symbolic value for class
 // vscp_class(vscpClass);
+// output: 'CLASS1.SETVALUEZONEX3'
 console.log(vscp_class(88));
 ```
 
 ## Events
-Available events are [here](https://grodansparadis.gitbooks.io/the-vscp-specification/?id=start/)
+Available events are [here](https://docs.vscp.org/spec/latest/#/)
+
+## Using this module with node-red
+
+If you work with [VSCP](https://www.vscp.org) it is convenient to use constants instead of _magical numbers_ when defining/sending event. Info on how to do this is available [here](https://www.npmjs.com/package/node-vscp).
 
 ---
 
