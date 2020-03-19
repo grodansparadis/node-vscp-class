@@ -16,12 +16,15 @@
     "automation"
   ],
   "author": "Ake Hedman, <akhe@grodansparadis.com> (https://www.vscp.org)",
-  "contributors":[
+  "contributors": [
     "Andreas Merkle <vscp@blue-andi.de>"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/grodansparadis/node-vscp-class/issues"
   },
-  "homepage": "https://github.com/grodansparadis/node-vscp-class#readme"
+  "homepage": "https://github.com/grodansparadis/node-vscp-class#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
