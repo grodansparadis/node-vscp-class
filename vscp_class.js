@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-04-24 18:04:56.401537
+                        Generated: 2020-05-17 17:20:25.809355
 */
 
 
@@ -103,15 +103,35 @@ module.exports.VSCP_CLASS2_LEVEL1_PROTOCOL = 512;
 module.exports.VSCP_CLASS2_LEVEL1_ALARM = 513;
 module.exports.VSCP_CLASS2_LEVEL1_SECURITY = 514;
 module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT = 522;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENTX1 = 523;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENTX2 = 524;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENTX3 = 525;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENTX4 = 526;
 module.exports.VSCP_CLASS2_LEVEL1_DATA = 527;
 module.exports.VSCP_CLASS2_LEVEL1_INFORMATION1 = 532;
 module.exports.VSCP_CLASS2_LEVEL1_CONTROL = 542;
 module.exports.VSCP_CLASS2_LEVEL1_MULTIMEDIA = 552;
 module.exports.VSCP_CLASS2_LEVEL1_AOL = 562;
 module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT64 = 572;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT64X1 = 573;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT64X2 = 574;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT64X3 = 575;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT64X4 = 576;
 module.exports.VSCP_CLASS2_LEVEL1_MEASUREZONE = 577;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREZONEX1 = 578;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREZONEX2 = 579;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREZONEX3 = 580;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREZONEX4 = 581;
 module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT32 = 582;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT32X1 = 583;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT32X2 = 584;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT32X3 = 585;
+module.exports.VSCP_CLASS2_LEVEL1_MEASUREMENT32X4 = 586;
 module.exports.VSCP_CLASS2_LEVEL1_SETVALUEZONE = 597;
+module.exports.VSCP_CLASS2_LEVEL1_SETVALUEZONEX1 = 598;
+module.exports.VSCP_CLASS2_LEVEL1_SETVALUEZONEX2 = 599;
+module.exports.VSCP_CLASS2_LEVEL1_SETVALUEZONEX3 = 600;
+module.exports.VSCP_CLASS2_LEVEL1_SETVALUEZONEX4 = 601;
 module.exports.VSCP_CLASS2_LEVEL1_WEATHER = 602;
 module.exports.VSCP_CLASS2_LEVEL1_WEATHERFORECAST = 607;
 module.exports.VSCP_CLASS2_LEVEL1_PHONE = 612;
@@ -185,15 +205,35 @@ vscp_class_map.set(512,'CLASS2.LEVEL1.PROTOCOL');
 vscp_class_map.set(513,'CLASS2.LEVEL1.ALARM');
 vscp_class_map.set(514,'CLASS2.LEVEL1.SECURITY');
 vscp_class_map.set(522,'CLASS2.LEVEL1.MEASUREMENT');
+vscp_class_map.set(523,'CLASS2.LEVEL1.MEASUREMENTX1');
+vscp_class_map.set(524,'CLASS2.LEVEL1.MEASUREMENTX2');
+vscp_class_map.set(525,'CLASS2.LEVEL1.MEASUREMENTX3');
+vscp_class_map.set(526,'CLASS2.LEVEL1.MEASUREMENTX4');
 vscp_class_map.set(527,'CLASS2.LEVEL1.DATA');
 vscp_class_map.set(532,'CLASS2.LEVEL1.INFORMATION1');
 vscp_class_map.set(542,'CLASS2.LEVEL1.CONTROL');
 vscp_class_map.set(552,'CLASS2.LEVEL1.MULTIMEDIA');
 vscp_class_map.set(562,'CLASS2.LEVEL1.AOL');
 vscp_class_map.set(572,'CLASS2.LEVEL1.MEASUREMENT64');
+vscp_class_map.set(573,'CLASS2.LEVEL1.MEASUREMENT64X1');
+vscp_class_map.set(574,'CLASS2.LEVEL1.MEASUREMENT64X2');
+vscp_class_map.set(575,'CLASS2.LEVEL1.MEASUREMENT64X3');
+vscp_class_map.set(576,'CLASS2.LEVEL1.MEASUREMENT64X4');
 vscp_class_map.set(577,'CLASS2.LEVEL1.MEASUREZONE');
+vscp_class_map.set(578,'CLASS2.LEVEL1.MEASUREZONEX1');
+vscp_class_map.set(579,'CLASS2.LEVEL1.MEASUREZONEX2');
+vscp_class_map.set(580,'CLASS2.LEVEL1.MEASUREZONEX3');
+vscp_class_map.set(581,'CLASS2.LEVEL1.MEASUREZONEX4');
 vscp_class_map.set(582,'CLASS2.LEVEL1.MEASUREMENT32');
+vscp_class_map.set(583,'CLASS2.LEVEL1.MEASUREMENT32X1');
+vscp_class_map.set(584,'CLASS2.LEVEL1.MEASUREMENT32X2');
+vscp_class_map.set(585,'CLASS2.LEVEL1.MEASUREMENT32X3');
+vscp_class_map.set(586,'CLASS2.LEVEL1.MEASUREMENT32X4');
 vscp_class_map.set(597,'CLASS2.LEVEL1.SETVALUEZONE');
+vscp_class_map.set(598,'CLASS2.LEVEL1.SETVALUEZONEX1');
+vscp_class_map.set(599,'CLASS2.LEVEL1.SETVALUEZONEX2');
+vscp_class_map.set(600,'CLASS2.LEVEL1.SETVALUEZONEX3');
+vscp_class_map.set(601,'CLASS2.LEVEL1.SETVALUEZONEX4');
 vscp_class_map.set(602,'CLASS2.LEVEL1.WEATHER');
 vscp_class_map.set(607,'CLASS2.LEVEL1.WEATHERFORECAST');
 vscp_class_map.set(612,'CLASS2.LEVEL1.PHONE');
