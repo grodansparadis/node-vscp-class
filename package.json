@@ -1,6 +1,6 @@
 {
   "name": "node-vscp-class",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "VSCP class constants for node.js",
   "main": "vscp_class.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/grodansparadis/node-vscp-class#readme",
   "devDependencies": {
-    "eslint": ">=8.15.0"
+    "eslint": ">=8.17.0"
   }
 }
