@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2022-12-29 13:58:08.282546
+                        Generated: 2023-02-26 22:28:56.818658
 */
 
 
@@ -152,6 +152,7 @@ module.exports.VSCP_CLASS2_TEXT2SPEECH = 1027;
 module.exports.VSCP_CLASS2_HLO = 1028;
 module.exports.VSCP_CLASS2_CUSTOM = 1029;
 module.exports.VSCP_CLASS2_DISPLAY = 1030;
+module.exports.VSCP_CLASS2_SECURITY = 1034;
 module.exports.VSCP_CLASS2_MEASUREMENT_STR = 1040;
 module.exports.VSCP_CLASS2_MEASUREMENT_FLOAT = 1060;
 module.exports.VSCP_CLASS2_VSCPD = 65535;
@@ -255,6 +256,7 @@ vscp_class_map.set(1027,'CLASS2.TEXT2SPEECH');
 vscp_class_map.set(1028,'CLASS2.HLO');
 vscp_class_map.set(1029,'CLASS2.CUSTOM');
 vscp_class_map.set(1030,'CLASS2.DISPLAY');
+vscp_class_map.set(1034,'CLASS2.SECURITY');
 vscp_class_map.set(1040,'CLASS2.MEASUREMENT_STR');
 vscp_class_map.set(1060,'CLASS2.MEASUREMENT_FLOAT');
 vscp_class_map.set(65535,'CLASS2.VSCPD');
