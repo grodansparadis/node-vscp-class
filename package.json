@@ -2,7 +2,7 @@
   "name": "node-vscp-class",
   "version": "1.0.20",
   "description": "VSCP class constants for node.js",
-  "main": "vscp_class.js",
+  "main": "vscp-class.js",
   "scripts": {
     "test": "node test.js"
   },
